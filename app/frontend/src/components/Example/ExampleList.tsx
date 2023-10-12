@@ -9,11 +9,17 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "What are top 3 lectures from JavaCro 2022 and 2021?",
+        value: "What are top 3 lectures from JavaCro 2022 and 2021?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    {
+        text: "Can you cross reference the list of speakers in JavaCro 2022 and 2021 and give me only the names that had lectures in both?",
+        value: "Can you cross reference the list of speakers in JavaCro 2022 and 2021 and give me only the names that had lectures in both?"
+    },
+    {
+        text: "Can you list me top ranked lecture in JavaCro 2022?",
+        value: "Can you list me top ranked lecture in JavaCro 2022?"
+    }
 ];
 
 interface Props {
